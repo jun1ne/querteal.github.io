@@ -13,9 +13,17 @@
     <img src="images/website-screenshot.png" alt="My test image">
     <body><button>Change user</button></body>
     <script src="scripts/main.js"></script>
-    <div id="map" style="width:600px; height:600px;">
-      <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=dceb48755266531c5b3abee017f7de7c"></script>
-    </div>
+    <div id="map" style="width:600px; height:600px;"></div>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=dceb48755266531c5b3abee017f7de7c"></script>
+    <script>
+      var container = document.getElementById('map');
+      var options = {
+        center: new kakao.maps.LatLng(33.450701, 126.570667),
+        level: 3
+      };
+  
+      var map = new kakao.maps.Map(container, options);
+    </script>
   </body>
   <p>At Mozilla, we’re a global community of</p>
 
