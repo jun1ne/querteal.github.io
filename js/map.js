@@ -9,3 +9,4 @@ container.style.width = '500px';
 container.style.height = '400px';
 
 map.relayout();
+map.setCenter(new DocumentFragment.maps.LatLng(37.5850969086744, 126.9248570657878))
