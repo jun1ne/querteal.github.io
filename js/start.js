@@ -103,3 +103,7 @@ function begin(){
     goNext(qIdx);
   }, 450);
 }
+
+function relayout(){    
+  map.relayout();
+}
