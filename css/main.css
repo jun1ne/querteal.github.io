@@ -1,0 +1,60 @@
+#main{
+    background-color:#FF0066;
+    width: 100%;
+    text-align : center;
+    border-radius: 20px;
+    height : 100%
+}
+
+ .mEnt{
+     color: whitesmoke;
+ }
+
+ .meNt{
+    color: whitesmoke;
+}
+
+
+
+.ment{
+    text-align: left;
+    font-size: 250%;
+ }
+ 
+ .Ment{
+     text-align: right;
+     font-size: 250%;
+  }
+@media ( max-width : 800px) {  /*가로 길이가 800px 이하 일때 아래 코드 실행*/
+    .ment{
+        text-align: left;
+        font-size: 220%;
+     }
+     
+     .Ment{
+         text-align: right;
+         font-size: 220%;
+      }
+}
+@media ( max-width : 400px) {   /*가로 길이가 400px 이하 일때 아래 코드 실행*/
+    .ment{
+        text-align: left;
+        font-size: 200%;
+     }
+     
+     .Ment{
+         text-align: right;
+         font-size: 200%;
+      }
+}
+@media ( max-width : 350px) {   /*가로 길이가 350px 이하 일때 아래 코드 실행*/
+    .ment{
+        text-align: left;
+        font-size: 160%;
+     }
+     
+     .Ment{
+         text-align: right;
+         font-size: 160%;
+      }
+}

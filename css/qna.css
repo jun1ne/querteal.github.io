@@ -1,0 +1,64 @@
+#qna{
+    display : none;
+}
+
+.qBox{
+    background-color: #FF0066;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 30px;
+    width: 80%;
+}
+@media ( max-width : 400px) {
+    .qBox{
+        background-color: #FF0066;
+        text-align: center;
+        border-radius: 16px;
+        font-size: 23px;
+        width: 80%;
+    }
+}
+
+.answerList{
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    display : block;
+    width : 100%;
+    border : 0px;
+    font-size: 16px;
+}
+@media ( max-width : 400px) {
+    .answerList{
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+        display : block;
+        width : 100%;
+        border : 0px;
+        font-size: 14px;
+    }
+}
+
+
+.answerList:hover, .answerList:focus {
+    background-color: whitesmoke;
+    color:#FF0066;
+}
+
+.status {
+    height: 7px;
+    width: 80%;
+    background-color: pink;
+    border-radius: 20px;
+  }
+
+.statusBar {
+    height: 100%;
+    border-radius: 20px;
+    background: black;
+    background: -moz-linear-gradient(top, whitesmoke 0%, black 20% 100%);
+    background: -webkit-linear-gradient(top, whitesmoke 0%, black 20% 100%);
+    background: linear-gradient(to bottom, whitesmoke 0%, black 20% 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='whitesmoke', endColorstr='black', GradientType=0);
+  }
