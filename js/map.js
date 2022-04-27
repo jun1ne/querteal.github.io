@@ -6,6 +6,8 @@ var mapContainer = document.getElementById('map'), // 지도를 표시할 div
 
 var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
 
+map.relayout();
+
 // 지도를 표시하는 div 크기를 변경하는 함수입니다
 function resizeMap() {
     var mapContainer = document.getElementById('map');
@@ -20,11 +22,3 @@ function relayout() {
     // window의 resize 이벤트에 의한 크기변경은 map.relayout 함수가 자동으로 호출됩니다
     map.relayout();
 }
-
-/* var container = document.getElementById('map');
-var options = {
-  center: new kakao.maps.LatLng(37.585135, 126.924890),
-  level: 3
-};
-
-var map = new kakao.maps.Map(container, options); */
