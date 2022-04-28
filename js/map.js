@@ -4,6 +4,8 @@ var container = document.getElementById('map'),
          level: 3
     };
 
+var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
+
 function relayout() {    
     map.relayout();
 }
